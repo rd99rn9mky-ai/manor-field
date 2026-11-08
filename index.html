@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manor Field</title>
+  <meta name="description" content="We design the systems that run small studios and agencies.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.2/p5.min.js" defer></script>
+  <script src="flow.js" defer></script>
+</head>
+<body>
+  <div id="hero">
+    <header class="site-header">
+      <a class="site-name" href="index.html">Manor Field</a>
+      <nav class="site-nav">
+        <a href="services.html">Services</a>
+        <a href="founder-experience.html">Founder Experience</a>
+        <a href="process.html">Process</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="cta" href="contact.html">Start a project</a>
+      </nav>
+    </header>
+
+    <main class="home">
+      <section class="mission">
+        <div class="mission-text">
+          <h1>Better systems for people who create</h1>
+          <p class="subheadline">Manor Field builds the workflows, research engines and brand systems that let small teams spend less time on admin and more on the work.</p>
+        </div>
+      </section>
+
+      <section class="offerings">
+        <div class="offering-row">
+          <button type="button" class="offering" aria-expanded="false" aria-controls="detail-ops">Internal ops systems</button>
+          <button type="button" class="offering" aria-expanded="false" aria-controls="detail-research">Research and outreach</button>
+          <button type="button" class="offering" aria-expanded="false" aria-controls="detail-brand">Brand and design systems</button>
+        </div>
+
+        <div class="offering-details">
+          <div class="offering-detail" id="detail-ops" hidden>
+            <p class="problem">Your team runs on scattered spreadsheets, DMs and memory.</p>
+            <p>We map how your team actually works, then build the tools around it: run-of-shows, project trackers, automated bookkeeping and daily workflows, with AI handling the repetitive parts.</p>
+          </div>
+          <div class="offering-detail" id="detail-research" hidden>
+            <p class="problem">Finding the right clients and collaborators takes hours of manual research.</p>
+            <p>Automated research that finds and vets the right leads, collaborators or talent, plugged into a CRM with follow-ups built in.</p>
+          </div>
+          <div class="offering-detail" id="detail-brand" hidden>
+            <p class="problem">Your brand looks different everywhere it shows up.</p>
+            <p>Visual identity, social templates and websites, documented so anyone on your team can stay on brand.</p>
+          </div>
+        </div>
+      </section>
+
+      <p class="experience-teaser">Before Manor Field, our founders built systems for fashion week, PR, music, retail and beauty clients. <a href="founder-experience.html">See what we've built.</a></p>
+    </main>
+  </div>
+</body>
+</html>
